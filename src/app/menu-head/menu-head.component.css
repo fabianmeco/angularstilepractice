@@ -1,8 +1,55 @@
-.head-container{
+header{
     width: 100%;
-    height: 40px;    
+    height: 46px;
+    background-color: #fff;
+}
+
+.head-container{
+    margin-left: 5%;
+    width: 90%;
+    height: 46px;      
 }
 
 .head-buttons{
+    height: 46px;
+    width: 45%;
+    float: left;
+    font-size: 13px;
+    font-weight: bold;
     
+}
+.head-buttons ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    text-align: left;
+}
+
+.head-buttons ul li{
+    height: 46px;
+    float: left;
+    text-align: center;
+    
+}
+.head-buttons ul li:hover{
+    border-bottom: solid 2px #0084B4;
+    color: #0084B4;
+}
+
+.head-buttons a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #66757f;
+}
+.logo{
+    height: 46px;
+    float: left;
+} 
+
+.profile-options{
+    height: 46px;
+    width: 45%;
+    float: right;  
+    text-align: right;  
 }
