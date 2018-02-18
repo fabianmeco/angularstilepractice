@@ -75,19 +75,19 @@ header{
 
 .profile-head-options{
     background-image: url("../../images/profile.jpg");
-    width: 30px;
-    height: 30px;   
+    width: 32px;
+    height: 32px;   
     background-size: contain; 
-    border-radius: 30px;
+    border-radius: 32px;
     margin: 7px;
 }
 .tutear button{
     background-color: #0e97c4;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 32px;
     border: none;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 7px;
-    padding: 7px 20px;
+    margin-top: 6px;
+    padding: 8px 20px;
 }

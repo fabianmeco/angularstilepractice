@@ -1,9 +1,12 @@
 app-profile-side{
-    float: left;    
+    float: left; 
+    width:  288px;   
 }
 app-news-space{
-    float:left;    
+    float:left;   
+    width: 588px; 
 }
 app-right-side{
-    float: left;   
+    float: left;  
+    width: 288px; 
 }
