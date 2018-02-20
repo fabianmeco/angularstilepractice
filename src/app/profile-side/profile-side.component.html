@@ -1,11 +1,15 @@
 <div class="profile-side-container">
     <div class="profile-side-info">
-        <a href="cover"><img src="" alt=""></a>
+        <!-- <a href="#" class="cover"></a> -->
         <div class="profile-info">
-            <a href="#"><img src="../../images/profile.png" alt=""></a>
-            <div class="user-profile">
-                <span class="name">Fabián Mendoza</span>
-                <span class="usernmae">@fabianskymc</span>
+            <div class="profile-image-wrap">
+                <a href="#">
+                    <img [src]="profile" alt="">
+                </a>
+                <div class="user-profile">
+                    <a class="name">Fabián Mendoza</a>
+                    <a class="username">@fabianskymc</a>
+                </div>
             </div>
             <div class="profile-general-stats">
                 <ul>
@@ -26,6 +30,33 @@
         </div>
     </div>
     <div class="profile-side-trends">
-        
+        <div class="trends-container">
+            <div class="trends-title">
+                <span>
+                    Tendencias para ti
+                </span>
+            </div>
+            <div class="trends-body">
+                <ul>
+                    <li>
+                        <span>JavaScript</span>
+                        <span>2K tweets</span>
+                    </li>
+                    <li>
+                        <span>NodeJS</span>
+                        <span>15 tweets</span>
+                    </li>
+                    <li>CSS3</li>
+                    <li>Knex</li>
+                    <li><span>#FullMetalAlchemist</span>
+                        <span> @marcuscanicas y 10 más están tuteando sobre esto</span>
+                    </li>
+                    <li>#Elecciones2018</li>
+                    <li>#MiMamaMeMima</li>
+                    <li>:)</li>
+
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

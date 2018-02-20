@@ -1,0 +1,51 @@
+.suggestions{
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e6ecf0;
+    padding: 10px
+
+}
+.title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.sug-wraper{
+    width: 288px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6ecf0;
+    position: relative;
+}
+.suggestion-profile-picture{
+    width: 48px;    
+    
+}
+.suggestion-profile-picture img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+        
+}
+.suggestion-info{   
+   position: absolute;
+   left: 60px;
+   top: 10px;
+}
+.suggestion-info button{
+    background-color: #fff;
+    color: #0e97c4;
+    border-radius: 32px;
+    border: 1px solid #0e97c4;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 4px 20px;    
+}
+.sug-user{
+    font-weight: bold;
+    font-size: 14px;
+}
+.suggestion-info .username{
+    font-size: 14px;
+    color: #657786;
+    
+}

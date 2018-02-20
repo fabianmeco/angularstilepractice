@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RightSideComponent implements OnInit {
 
+  image1: any = "../../assets/fab.jpg";
+  image2: any = "../../assets/ed.jpg";
+  image3: any = "../../assets/lava.jpg";
   constructor() { }
 
   ngOnInit() {

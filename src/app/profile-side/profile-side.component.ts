@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileSideComponent implements OnInit {
 
+profile: any = "../../assets/profile.jpg";
+cover : any = "../../assets/puntoskas.jpeg";
   constructor() { }
 
   ngOnInit() {
