@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-menu-head',
   templateUrl: './menu-head.component.html',
-  styleUrls: ['./menu-head.component.css']
+  styleUrls: ['./menu-head.component.scss']
 })
 export class MenuHeadComponent implements OnInit {
 

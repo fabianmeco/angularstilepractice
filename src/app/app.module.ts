@@ -16,6 +16,7 @@ import { RightSideComponent } from './right-side/right-side.component';
     ProfileSideComponent,
     NewsSpaceComponent,
     RightSideComponent
+    
   ],
   imports: [
     BrowserModule

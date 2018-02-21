@@ -1,0 +1,105 @@
+.profile-side-container{
+    width: 100%
+}
+
+.cover{    
+    width: 100%;
+    height: 95px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0px;
+    position: relative;
+    z-index: 0;
+    img{
+        width: 288px;
+        margin: -10% 0;
+    }
+} 
+
+.profile-side-info, .profile-side-trends{
+    background-color: #fff;
+    border: 1px solid #e6ecf0
+}
+.profile-image-wrap{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    > a{
+        vertical-align: bottom; 
+        img{
+            margin: -30px 0 0 7px;
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+        }             
+    }
+    .user-profile{
+        position: relative;    
+        padding: 10px 0 0 10px;
+        .name{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .username{
+            font-size: 14px;
+            color: #657786;        
+        }
+    }
+}
+
+.profile-general-stats{
+    ul{
+        list-style: none;
+        padding: 10px 10px;
+        display: flex;
+        margin: 0;
+        li{
+            font-weight: bold; 
+            .subtitle{
+                color: #657786;
+                font-size: 12px;                
+            }  
+            .stat{
+                color: #0084B4;
+                font-size: 18px;
+            }
+         }
+    }    
+}
+
+
+
+.profile-side-trends{
+    margin-top: 10px;
+    .trends-container{
+        padding: 15px 10px;
+        .trends-title{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .trends-body{ 
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    color: #0084B4;
+                    font-weight: bold;
+                    font-size: 14px;
+                    padding-bottom: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    span
+                    {
+                        &:nth-child(2){
+                            color: #657786;
+                            font-size: 12px;
+                            font-weight: lighter;                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

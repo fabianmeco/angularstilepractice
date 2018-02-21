@@ -1,0 +1,98 @@
+header{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 1px 1px #66757f 
+}
+
+.head-container{
+    margin-left: 5%; 
+    width: 90%;
+    height: 46px; 
+    display:flex;     
+}
+
+.head-buttons{
+    width: 45%;
+    font-size: 13px;
+    font-weight: bold;
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+        display: flex;
+        li{
+            text-align: center;
+            padding: 15px 0;
+            flex-grow: 1;
+            &:hover{
+                border-bottom: solid 2px #0084B4;    
+                a{color: #0084B4;}
+            }   
+        }
+    }
+    a{
+        text-decoration: none;
+        margin-left: 5px;
+        color: #66757f;
+    }
+}
+
+.logo{
+    height: 30px;    
+    width: 10%;
+    background-image: url("../../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 7px;
+} 
+
+.profile-options{
+    width: 45%;
+    text-align: right;
+    display: flex; 
+    align-items: center; 
+    div{
+        input{
+            padding: 6px 5px;
+            border-radius: 15px;
+            height: 18px;
+            width: 90%;
+            background-color: #f4f8fa;
+            border: .5px solid #e5ebf0; 
+            &:focus{
+                border: .5px solid #0084B4;
+                background-color: #fff;
+                color: #66757f
+            }
+        }
+    }
+    .profile-head-options{
+        background-image: url("../../images/profile.jpg");
+        width: 32px;
+        height: 32px;   
+        background-size: contain; 
+        border-radius: 32px;
+        margin: 0 7px;
+    }   
+    .tutear {
+        button{
+            background-color: #0e97c4;
+            color: #fff;
+            border-radius: 32px;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;   
+            padding: 8px 20px;
+            width: 100%;
+        }
+    }
+    .prof-grow-1{
+        flex-grow: 1
+    }
+    .prof-grow-2{
+        flex-grow: 2
+    }
+}
+

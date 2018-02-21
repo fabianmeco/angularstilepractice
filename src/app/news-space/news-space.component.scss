@@ -1,32 +1,32 @@
 .news-wrap{
     width: 100%;
     border: 1px solid #e6ecf0;
+    display: flex;
+    flex-direction: column;
 }
 .new-tweet{
     background-color: #E5F2F7;
     padding: 10px 10px;
-    position:absolute;
-    width: 568px;
+    display: flex;
 }
 .new-tweet-profile-pic{
     background-image: url("../../images/profile.jpg");
     background-size: contain;
     width: 32px;
     height: 32px;
-    border-radius: 50%;
-    float: left;
+    border-radius: 50%;    
 }
 .new-tweet-input{
-    padding-left: 10px;
-    float: left;
-}
-.new-tweet-input input{
-    color:#0084B4;
-    border: #BFE0EC solid 1px;    
-    border-radius: 8px;
-    height: 36px;
-    padding-left: 5px;
-    width: 500px
+    margin-left: 10px; 
+    flex-grow: 1;   
+    input{
+        color:#0084B4;
+        border: #BFE0EC solid 1px;    
+        border-radius: 8px;
+        height: 36px;        
+        margin-right: 10px;
+        width: 100%
+    }
 }
 .news-space{
     background-color: #fff;

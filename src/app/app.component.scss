@@ -1,0 +1,26 @@
+
+.body-wrapper{
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    app-profile-side{
+        width:  288px; 
+        @media screen and (max-width: 920px){
+            display: none;                
+        }  
+    }
+    app-news-space{
+        width: 588px; 
+        margin-left: 10px;
+    }
+    app-right-side{
+        width: 268px; 
+        margin-left: 10px;
+        @media screen and (max-width: 1200px){
+            display: none;            
+        }
+    }
+}
+
+
